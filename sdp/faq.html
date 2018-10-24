@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SDP</title>
+
+	<!-- Material Icon -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- inject:css -->
+	<link rel="stylesheet" href="assets/css/app.css">
+	<!-- endinject -->
+</head>
+<body class="bg-darkblue no-sidebar faq">
+
+	<nav class="nav">
+		<div class="mr-auto">
+      <!-- show in mobile view -->
+			<div class="item toggle-aside">
+				<a href="#"><i class="material-icons">menu</i></a>
+			</div>
+			<div class="item logo-mobile">
+        <a href="index.html"><img src="assets/images/logo.svg" alt="Logo SDP"></a>
+			</div>
+      <!-- end show in mobile view -->
+      
+			<div class="item app-icon">
+				<i class="material-icons">apps</i>
+			</div>
+			<div class="item">
+				<div class="title">Remisi Online</div>
+			</div>
+		</div>
+		<div class="ml-auto">
+			<div class="dropdown">
+				<a id="user-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span>Nama Pengguna</span>
+					<i class="material-icons">arrow_drop_down</i>
+					<div class="img" id="user-photo-thumb">
+						<style>
+							#user-photo-thumb {
+								background-image: url(assets/images/user-photo.jpg);
+							}
+						</style>
+					</div>
+				</a>
+				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="user-dropdown">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<a class="dropdown-item" href="#">Something else here</a>
+				</div>
+			</div>
+		</div>
+  </nav>
+  
+  <section class="content">
+    <div class="status">
+      <div class="back">
+        <a href="remisi-daftar-usulan.html"><i class="material-icons">arrow_back</i></a>
+        Pusat Bantuan
+      </div>
+    </div>
+
+    <div class="data row faq">
+      <div class="col-md-8">
+        <div class="data-content">
+          <h1>Remisi Online</h1>
+          <h3>Lorem ipsum dolor sit.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto libero, quas consectetur dolores earum, neque rem tempore id debitis voluptate minus asperiores ab! Repudiandae numquam eos impedit, voluptates modi ducimus.</p>
+
+          <div class="row wbp-history">
+            <div class="col">
+              <h6>Riwayat Remisi</h6>
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="history-1">
+                    <a href="#" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                      <h5>Lorem ipsum dolor sit amet.</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo!</p>
+                    </a>
+                  </div>
+              
+                  <div id="collapse-1" class="collapse" aria-labelledby="history-1" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="card">
+                  <div class="card-header" id="history-2">
+                    <a href="#" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                      <h5>Accusamus, illo!</h5>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    </a>
+                  </div>
+              
+                  <div id="collapse-2" class="collapse" aria-labelledby="history-2" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="data-content link-content">
+          <div class="title">
+            <h3>Kategori Bantuan</h3>
+          </div>
+          <div class="bg-darkblue">
+            <ul class="list-unstyled">
+              <li><a href="">Dasbor Eksekutif</a></li>
+              <li><a href="">Dasbor Umum</a></li>
+              <li><a href="">Registrasi Online</a></li>
+              <li class="active"><a href="">Remisi Online</a></li>
+              <li><a href="">Sidang TPP</a></li>
+              <li><a href="">Verifikasi Usulan</a></li>
+              <li><a href="">Master Data</a></li>
+            </ul>
+            <i class="material-icons icon-bg">help_outline</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="filterModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content form">
+        <div class="modal-header">
+          <h5 class="modal-title" id="filterModalLabel">Filter Lanjutan</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><i class="material-icons">close</i></span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <h3>Masukkan Kata Kunci</h3>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Kata dari pencarian Anda">
+              </div>
+              <div class="select-group w-100p form-group">
+                <select name="" id="filter-1" class="btn btn-common w-100p">
+                  <option value="">Semua Kategori</option>
+                  <option value="">Kategori 1</option>
+                  <option value="">Kategori 2</option>
+                </select>
+                <label for="filter-1"><i class="material-icons">unfold_more</i></label>
+              </div>
+
+              <br>
+              <br>
+
+              <div class="form-group">
+                <h3>Remisi</h3>
+              </div>
+              <div class="select-group w-100p form-group">
+                <select name="" id="filter-2" class="btn btn-common w-100p">
+                  <option value="">Semua Status</option>
+                  <option value="">Status 1</option>
+                  <option value="">Status 2</option>
+                </select>
+                <label for="filter-2"><i class="material-icons">unfold_more</i></label>
+              </div>
+              <div class="select-group w-100p form-group">
+                <select name="" id="filter-3" class="btn btn-common w-100p">
+                  <option value="">Semua Kategori Remisi</option>
+                  <option value="">Kategori Remisi 1</option>
+                  <option value="">Kategori Remisi 2</option>
+                </select>
+                <label for="filter-3"><i class="material-icons">unfold_more</i></label>
+              </div>
+              <div class="select-group w-100p form-group">
+                <select name="" id="filter-4" class="btn btn-common w-100p">
+                  <option value="">Semua Jenis Remisi</option>
+                  <option value="">Jenis Remisi 1</option>
+                  <option value="">Jenis Remisi 2</option>
+                </select>
+                <label for="filter-4"><i class="material-icons">unfold_more</i></label>
+              </div>
+              <div class="input-group form-group">
+                <input type="text" class="form-control own-datepicker" placeholder="Tgl. Surat Pengantar UPT"><span class="input-group-addon"><i class="material-icons">calendar_today</i></span>
+              </div>
+              <div class="input-group form-group">
+                <input type="text" class="form-control own-datepicker" placeholder="Tgl. Surat Pengantar Kanwil"><span class="input-group-addon"><i class="material-icons">calendar_today</i></span>
+              </div>
+
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <h3>Kelengkapan Data</h3>
+              </div>
+              <div class="select-group w-100p form-group">
+                <select name="" id="filter-5" class="btn btn-common w-100p">
+                  <option value="">Semua Data</option>
+                  <option value="">Data 1</option>
+                  <option value="">Data 2</option>
+                </select>
+                <label for="filter-5"><i class="material-icons">unfold_more</i></label>
+              </div>
+              <div class="select-group w-100p form-group">
+                <select name="" id="filter-6" class="btn btn-common w-100p">
+                  <option value="">Semua Status Data</option>
+                  <option value="">Status Data 1</option>
+                  <option value="">Status Data 2</option>
+                </select>
+                <label for="filter-6"><i class="material-icons">unfold_more</i></label>
+              </div>
+
+              <br>
+              <br>
+
+              <div class="form-group">
+                <h3>Kelengkapan Administratif</h3>
+              </div>
+              <div class="select-group w-100p form-group">
+                <select name="" id="filter-7" class="btn btn-common w-100p">
+                  <option value="">Semua Administratif</option>
+                  <option value="">Administratif 1</option>
+                  <option value="">Administratif 2</option>
+                </select>
+                <label for="filter-7"><i class="material-icons">unfold_more</i></label>
+              </div>
+              <div class="select-group w-100p form-group">
+                <select name="" id="filter-8" class="btn btn-common w-100p">
+                  <option value="">Semua Status Administratif</option>
+                  <option value="">Status Administratif 1</option>
+                  <option value="">Status Administratif 2</option>
+                </select>
+                <label for="filter-8"><i class="material-icons">unfold_more</i></label>
+              </div>
+
+              <br>
+              <br>
+
+              <div class="form-group">
+                <h3>Lainnya</h3>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="checkbox">
+                    <input type="checkbox" id="filter-9">
+                    <label for="filter-9"><i class="material-icons">check</i></label>
+                    <span>Data Aktif</span>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="checkbox">
+                    <input type="checkbox" id="filter-10">
+                    <label for="filter-10"><i class="material-icons">check</i></label>
+                    <span>Usulan dari Mutasi</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-common" data-dismiss="modal">Hapus Filter</button>
+          <button type="button" class="btn btn-green">Cari</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+	<!-- inject:js -->
+	<script src="assets/js/bundle.js"></script>
+	<!-- endinject -->
+</body>
+</html>
