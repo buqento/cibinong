@@ -1,0 +1,13 @@
+$(function() {
+    $('#datetimepicker1').datetimepicker({
+      language: 'pt-BR'
+    });
+});
+
+$(function(){
+	$('#modalButton').click(function(){
+		$('#modal').modal('show')
+		.find('#modalContent')
+		.load($(this).attr('value'));
+	});
+});
